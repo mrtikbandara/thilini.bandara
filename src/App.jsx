@@ -24,11 +24,22 @@ const icons = {
 };
 
 const expertise = [
-  { icon: icons.pulse, title: 'Ayurvedic Assessment', text: 'Patient consultation, observation, pulse diagnosis, clinical assessment and individualised treatment planning.' },
-  { icon: icons.herb, title: 'Herbal & Traditional Therapies', text: 'Ayurvedic herbal medicine, traditional therapies and Panchakarma-based therapeutic care.' },
-  { icon: icons.leaf, title: 'Diet & Lifestyle', text: 'Personalised dietary guidance, lifestyle modification, prevention-focused health education and wellness support.' },
-  { icon: icons.yoga, title: 'Yoga & Integrative Wellness', text: 'Yoga instruction, wellness education and acupuncture experience supporting a whole-person approach to wellbeing.' },
-  { icon: icons.heart, title: 'Patient Care & Documentation', text: 'Treatment monitoring, patient education, confidential records, EHR documentation and compassionate multidisciplinary communication.' },
+  { icon: icons.pulse, title: 'Ayurvedic Consultation & Assessment', text: 'Patient consultation, observation, health-history assessment, pulse diagnosis and personalised treatment planning.' },
+  { icon: icons.heart, title: 'Personalised Ayurvedic Treatment', text: 'Individualised therapeutic programmes combining traditional therapies, herbal guidance, diet, lifestyle and wellness practices.' },
+  { icon: icons.herb, title: 'Panchakarma & Traditional Therapies', text: 'Practical experience providing traditional Ayurvedic treatments and Panchakarma-related therapeutic care while monitoring progress.' },
+  { icon: icons.leaf, title: 'Ayurvedic Herbal Medicine', text: 'Clinical guidance on Ayurvedic medicines alongside professional exposure to pharmacy, manufacturing and quality processes.' },
+  { icon: icons.leaf, title: 'Diet & Lifestyle Guidance', text: 'Personalised guidance around healthy routines, lifestyle modification and preventive health practices.' },
+  { icon: icons.yoga, title: 'Yoga & Holistic Wellness', text: 'Yoga classes, wellness education and lifestyle awareness integrated into a broader whole-person approach.' },
+  { icon: icons.pulse, title: 'Acupuncture & Integrative Wellness', text: 'Experience with Acupuncture as part of broader holistic and integrative wellness approaches rooted in Ayurveda.' },
+  { icon: icons.cap, title: 'Health Education & Prevention', text: 'Patient education about diet, wellness, disease prevention and traditional approaches to maintaining health.' },
+];
+
+const approach = [
+  ['Understand', 'Begin by understanding the individual, their health concerns, symptoms, lifestyle, diet and wider wellbeing.'],
+  ['Assess', 'Use clinical observation and appropriate Ayurvedic assessment methods to develop a clearer picture of individual needs.'],
+  ['Personalise', 'Develop an individualised therapeutic approach incorporating Ayurvedic treatment, herbal guidance, diet, lifestyle and wellness practices.'],
+  ['Support', 'Help the individual understand the reasoning behind lifestyle and wellness recommendations so care extends beyond the treatment setting.'],
+  ['Review', 'Monitor the response to therapeutic care and adapt the approach where appropriate.'],
 ];
 
 const career = [
@@ -42,41 +53,41 @@ const career = [
     years: '22 August 2021 — 31 August 2023',
     role: 'Medical Officer',
     place: '4U Ayurveda Medical Centre & Pharmacy, Sri Lanka',
-    details: 'Conducted patient assessment, pulse diagnosis and treatment planning; provided Ayurvedic therapies including Panchakarma, herbal medicine guidance, diet and lifestyle counselling, Yoga and wellness support, treatment monitoring and health education.'
+    details: ['Conducted Ayurvedic patient consultations and clinical assessments.', 'Applied traditional diagnostic approaches, including observation and pulse diagnosis.', 'Developed personalised Ayurvedic treatment programmes and provided traditional therapies.', 'Worked with Panchakarma-related approaches and Ayurvedic herbal medicines.', 'Advised patients on diet, lifestyle modification, prevention and long-term wellbeing.', 'Monitored patient progress, adapted care and supported Yoga and wellness activities.', 'Educated patients about Ayurveda and healthy lifestyle practices.']
   },
   {
     years: '2 September 2020 — 15 October 2021',
     role: 'Medical Officer In-Charge',
     place: 'SETRAMED Institute Pvt Ltd, Sri Lanka',
-    details: 'Delivered Ayurvedic treatments and therapies, supported quality control in an Ayurvedic medicine manufacturing environment, guided pharmacy staff, coordinated educational activities and supported safe use of Ayurvedic medicines.'
+    details: ['Provided Ayurvedic treatments and therapeutic care.', 'Supported quality-control activities within an Ayurvedic drug-manufacturing environment.', 'Provided professional guidance to pharmacy staff and supported quality medicine provision.', 'Coordinated courses and educational activities for Ayurvedic medical students.', 'Provided lifestyle and wellness guidance consistent with Ayurvedic principles.']
   },
   {
     years: '16 January 2019 — 31 August 2020',
     role: 'Residential Doctor',
     place: 'Lake Escapes Health Care Resort — Ay Service (Pvt) Ltd, Sri Lanka',
-    details: 'Diagnosed and treated local and international clients using Ayurvedic principles, delivered holistic therapeutic care, taught Yoga, managed the Ayurvedic section and provided guidance on prevention and healthy lifestyle practices.'
+    details: ['Assessed clients and identified health and wellness concerns.', 'Diagnosed and treated ailments according to Ayurvedic principles.', 'Provided Ayurvedic therapeutic care and supported holistic health programmes.', 'Educated clients about disease prevention and healthy-lifestyle guidance.', 'Conducted and supported Yoga classes and wellness practices.', 'Communicated Ayurvedic health concepts to local and international clients.', 'Managed staff within the Ayurvedic section.']
   },
   {
     years: 'Clinical Internship',
     role: 'Intern Medical Officer',
     place: 'Ayurvedic Teaching Hospital, Borella, Sri Lanka',
-    details: 'Completed a one-year clinical internship with practical experience in patient assessment, diagnosis, prescribing medicines and treatments.'
+    details: ['Completed an intensive one-year clinical internship as part of the BAMS programme.', 'Developed practical experience in patient handling, communication, assessment and Ayurvedic diagnosis.', 'Prescribed medicines and treatments while observing patient response and therapeutic progress.', 'Applied Ayurvedic principles within a professional hospital environment.']
   }
 ];
 
 const qualifications = [
-  ['MSc in Public Health', 'York St John University, London Campus', '2023 — 2024'],
-  ['Bachelor of Ayurvedic Medicine & Surgery (BAMS)', 'Faculty of Indigenous Medicine, University of Colombo', '2012 — 2018 · Second Upper Division'],
+  ['Master of Science in Public Health', 'York St John University, London Campus · Public health, health promotion, prevention and population wellbeing', '2023 — 2024'],
+  ['Bachelor of Ayurvedic Medicine & Surgery (BAMS)', 'Faculty of Indigenous Medicine, University of Colombo, Sri Lanka · Five years academic study and one-year clinical internship · Second Upper Division', '2012 — 2018'],
   ['Certificate of Practicing Ayurveda in UK', 'London College of Ayurvedic Medicine', 'March 2025'],
   ['Care Certificate', 'South West London Training Hub', 'September — December 2024'],
   ['Diploma in Psychology & Counselling', 'SITC Campus, Sri Lanka · One-year theoretical and practical diploma', '2021 — 2022'],
-  ['Reading: Certificate in Proficiency of Ayurveda', 'Continuing professional development', 'In progress']
+  ['Certificate in Proficiency of Ayurveda', 'Continuing professional development', 'Currently undertaking']
 ];
 
 const research = [
-  ['Postgraduate Research · 2021 — 2022', 'Literature review on the utilization of traditional medicinal knowledge in health promotion among the general population in South Asia.'],
-  ['Undergraduate Individual Research', 'Literature review on traditional medicinal formulations for urinary calculi mentioned in the “Thalpathe Piliyam” book series.'],
-  ['Internship Group Research', 'Literature review on the potential of traditional diets for the management of non-communicable diseases.']
+  ['Traditional Medicinal Knowledge & Health Promotion · Postgraduate Research', 'Literature review exploring the utilisation of traditional medicinal knowledge in health promotion among the general population in South Asia.'],
+  ['Traditional Ayurvedic Formulations · Undergraduate Individual Research', 'Literature review examining traditional medicinal formulations for urinary calculi documented in the “Thalpathe Piliyam” book series.'],
+  ['Traditional Diet & Non-Communicable Diseases · Internship Group Research', 'Literature review examining the potential of traditional diets in the management of non-communicable diseases.']
 ];
 
 function App() {
@@ -122,17 +133,19 @@ function App() {
           <div className="hero__orb hero__orb--2" />
           <div className="container hero__grid">
             <div className="hero__copy reveal">
-              <div className="eyebrow"><span>{icons.leaf}</span> Ayurveda • Public Health • Holistic Wellness</div>
-              <h1>Traditional Ayurvedic wisdom, approached with <em>clinical care.</em></h1>
-              <p className="hero__lead">Dr. Thilini Mapa Rallage is a BAMS-qualified Ayurveda Doctor with an MSc in Public Health and clinical experience across Ayurvedic medical centres, wellness settings and hospital practice.</p>
+              <div className="eyebrow"><span>{icons.leaf}</span> Ayurveda • Panchakarma • Herbal Medicine • Holistic Wellness • Preventive Health</div>
+              <h1>Traditional Ayurvedic wisdom. <em>Personalised for modern wellbeing.</em></h1>
+              <p className="hero__lead">Dr. Thilini Mapa Rallage is a qualified Ayurveda Doctor with a Bachelor of Ayurvedic Medicine and Surgery (BAMS) from the University of Colombo and an MSc in Public Health from York St John University, London.</p>
+              <p className="hero__lead">Her professional journey spans Ayurvedic medical centres, residential wellness practice, Ayurvedic medicine and pharmacy environments, teaching-hospital training, patient education and holistic wellness.</p>
               <div className="hero__actions">
-                <button className="button" onClick={() => go('expertise')}>Explore expertise {icons.arrow}</button>
-                <button className="button button--ghost" onClick={() => go('contact')}>Get in touch</button>
+                <button className="button" onClick={() => go('expertise')}>Explore Ayurveda expertise {icons.arrow}</button>
+                <button className="button button--ghost" onClick={() => go('contact')}>Professional enquiries</button>
               </div>
               <div className="hero__meta">
                 <div><strong>BAMS</strong><span>University of Colombo</span></div>
                 <div><strong>MSc</strong><span>Public Health</span></div>
-                <div><strong>UK</strong><span>Ayurveda Practice Certificate</span></div>
+                <div><strong>8+ Years</strong><span>Clinical & healthcare experience</span></div>
+                <div><strong>UK</strong><span>Ayurveda practice certificate</span></div>
               </div>
             </div>
 
@@ -153,11 +166,13 @@ function App() {
           <div className="container split">
             <div>
               <p className="kicker">About</p>
-              <h2>Ayurveda centred on the whole person.</h2>
+              <h2>Ayurveda centred on the individual, not simply the condition.</h2>
             </div>
             <div className="about-copy">
-              <p className="large">Dedicated and compassionate Ayurveda Doctor with a BAMS, MSc in Public Health and over eight years of combined clinical and healthcare experience.</p>
-              <p>Her clinical approach brings together Ayurvedic assessment, traditional therapies, herbal medicine, Panchakarma, diet, lifestyle, Yoga, Acupuncture and patient education. Her UK healthcare experience adds strong practice in person-centred care, health promotion, treatment monitoring, accurate documentation, safeguarding and multidisciplinary communication.</p>
+              <p className="large">Dedicated Ayurveda Doctor with extensive experience in Ayurvedic consultation, patient assessment, traditional diagnosis, treatment planning, herbal medicine, therapeutic procedures, Panchakarma, dietary guidance, lifestyle counselling, Yoga and holistic wellness.</p>
+              <p>Her clinical journey began with rigorous academic and hospital-based training in Sri Lanka and developed through progressively responsible roles as an Intern Medical Officer, Residential Doctor, Medical Officer and Medical Officer In-Charge.</p>
+              <p>Working with both local and international clients has strengthened her ability to understand different health concerns, lifestyles and wellness goals while communicating Ayurvedic concepts in a practical and approachable way.</p>
+              <p>Her professional philosophy combines treatment, prevention and wellbeing. Her postgraduate education in Public Health complements this perspective through a focus on health promotion, disease prevention, population health and patient education.</p>
               <div className="membership">{icons.heart}<span><b>Professional Membership</b> Member of the Ayurvedic Medical Council, Sri Lanka.</span></div>
             </div>
           </div>
@@ -167,8 +182,8 @@ function App() {
           <div className="container">
             <div className="section-heading">
               <p className="kicker">Clinical Expertise</p>
-              <h2>Ayurvedic care from assessment to lifestyle support.</h2>
-              <p>Core areas are presented from Dr. Thilini’s documented clinical competencies and professional experience.</p>
+              <h2>A comprehensive approach to Ayurvedic health and wellbeing.</h2>
+              <p>Dr. Thilini’s experience covers the patient journey from initial consultation and assessment through treatment planning, therapeutic care, lifestyle support and ongoing review.</p>
             </div>
             <div className="cards">
               {expertise.map((item, i) => (
@@ -181,10 +196,7 @@ function App() {
               ))}
             </div>
             <div className="principles">
-              <div><span>01</span><b>Assess</b><small>Understand the individual, symptoms and context.</small></div>
-              <div><span>02</span><b>Plan</b><small>Develop an individualised therapeutic approach.</small></div>
-              <div><span>03</span><b>Support</b><small>Combine treatment with diet, lifestyle and education.</small></div>
-              <div><span>04</span><b>Review</b><small>Monitor progress and adapt care where appropriate.</small></div>
+              {approach.map(([title, text], i) => <div key={title}><span>0{i + 1}</span><b>{title}</b><small>{text}</small></div>)}
             </div>
           </div>
         </section>
@@ -193,8 +205,8 @@ function App() {
           <div className="container experience-grid">
             <div className="experience-intro">
               <p className="kicker kicker--light">Ayurveda Experience</p>
-              <h2>Clinical practice across medicine, wellness and education.</h2>
-              <p>The focus here is exclusively on Dr. Thilini’s Ayurvedic medical career.</p>
+              <h2>A professional journey through clinical Ayurveda, wellness, medicine and education.</h2>
+              <p>Dr. Thilini’s experience brings together clinical Ayurveda, traditional treatment, pharmacy operations, quality processes, patient education and preventive wellness.</p>
             </div>
             <div className="timeline">
               {career.map((item) => (
@@ -203,7 +215,7 @@ function App() {
                   <div className="timeline__year">{item.years}</div>
                   <h3>{item.role}</h3>
                   <h4>{item.place}</h4>
-                  <p>{item.details}</p>
+                  <ul>{item.details.map((detail) => <li key={detail}>{detail}</li>)}</ul>
                 </article>
               ))}
             </div>
@@ -214,8 +226,8 @@ function App() {
           <div className="container qualifications-grid">
             <div>
               <p className="kicker">Education & Credentials</p>
-              <h2>Clinical foundations strengthened by public health.</h2>
-              <p className="muted">A six-year BAMS pathway including clinical internship, followed by postgraduate public health study and additional professional learning.</p>
+              <h2>Traditional medical training strengthened by public-health knowledge.</h2>
+              <p className="muted">A comprehensive BAMS pathway including clinical internship, followed by postgraduate public health study and additional professional learning.</p>
             </div>
             <div className="qualification-list">
               {qualifications.map(([title, school, date]) => (
@@ -231,8 +243,8 @@ function App() {
         <section className="section section--sand" id="research">
           <div className="container">
             <div className="research-head">
-              <div><p className="kicker">Research</p><h2>Traditional medicine through an evidence-aware lens.</h2></div>
-              <p>Academic work exploring traditional medicine, prevention, health promotion and diet-related approaches.</p>
+              <div><p className="kicker">Research & Academic Interests</p><h2>Exploring traditional medicine through research, prevention and public health.</h2></div>
+              <p>Academic work exploring traditional medicine, health promotion, prevention, diet and long-term wellbeing.</p>
             </div>
             <div className="research-grid">
               {research.map(([label, item], i) => <article key={item}><span>0{i + 1}</span><small>{label}</small><p>{item}</p></article>)}
@@ -245,12 +257,12 @@ function App() {
             <div>
               <p className="kicker kicker--light">Contact</p>
               <h2>Connect with Dr. Thilini.</h2>
-              <p>For professional enquiries relating to Ayurveda, holistic wellness, health education or collaboration.</p>
+              <p>For professional enquiries relating to Ayurveda, holistic wellness, Ayurvedic health education, traditional medicine, research or professional collaboration.</p>
             </div>
             <div className="contact__card">
               <a href="mailto:tikbandara@gmail.com">{icons.mail}<span><small>Email</small>tikbandara@gmail.com</span></a>
               <a href="tel:+447823758376">{icons.phone}<span><small>Phone</small>+44 78 2375 8376</span></a>
-              <div>{icons.pin}<span><small>Based in</small>69 Chiltern Rd, Sutton, SM2 5QY</span></div>
+              <div>{icons.pin}<span><small>Based in</small>Sutton, United Kingdom</span></div>
             </div>
           </div>
         </section>
@@ -259,7 +271,7 @@ function App() {
       <footer>
         <div className="container footer__inner">
           <div><b>Dr. Thilini Mapa Rallage</b><span>Ayurveda Doctor · BAMS · MSc Public Health</span></div>
-          <p>Professional portfolio website · © {new Date().getFullYear()}</p>
+          <p>Traditional knowledge. Personalised care. A whole-person approach to wellbeing. · © {new Date().getFullYear()}</p>
         </div>
       </footer>
     </div>
