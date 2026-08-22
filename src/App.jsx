@@ -47,7 +47,7 @@ const career = [
     years: 'October 2023 — Present',
     role: 'Senior Care Assistant / Shift In-Charge',
     place: 'Thornton Lodge Residential Care Home, Croydon, UK',
-    details: 'Lead care staff during shifts, coordinate person-centred support, monitor residents’ health and wellbeing, oversee medication administration, maintain care documentation and liaise with GPs, pharmacists, nurses and other healthcare professionals.'
+    details: ['Lead care staff during shifts and coordinate person-centred support.', 'Monitor residents’ health and wellbeing and oversee medication administration.', 'Maintain care documentation and liaise with GPs, pharmacists, nurses and other healthcare professionals.']
   },
   {
     years: '22 August 2021 — 31 August 2023',
