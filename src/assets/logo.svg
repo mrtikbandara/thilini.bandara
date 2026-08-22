@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">4U Ayurveda logo</title>
+  <desc id="desc">Green and cream circular 4U Ayurveda emblem with a leaf</desc>
+  <circle cx="256" cy="256" r="246" fill="#fffbdc" stroke="#00a651" stroke-width="16"/>
+  <path d="M123 145c91-93 222-89 280-36-64-20-129-6-179 42 43-13 92-8 132 19-62 43-132 25-192-25-14-1-28-1-41 0Z" fill="#00a651"/>
+  <path d="M354 145c-35-28-39-70-8-116 40 29 48 74 8 116Z" fill="#8dc63f"/>
+  <path d="M169 176h57v160c0 26 16 40 40 40 28 0 43-15 43-44V176h57v159c0 65-35 104-100 104-62 0-97-37-97-101Z" fill="#00a651"/>
+  <path d="m105 339 54-176 51-13 43 201-51 13-12-58-91 20Zm48-54 29-7-16-76-22 83Z" fill="#8dc63f"/>
+  <text x="256" y="420" text-anchor="middle" fill="#292929" font-family="Arial, sans-serif" font-size="39" font-weight="700" letter-spacing="3">AYURVEDA</text>
+</svg>
