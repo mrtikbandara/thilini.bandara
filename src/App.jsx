@@ -99,7 +99,7 @@ function App() {
       <header className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
         <div className="container nav__inner">
           <button className="brand" onClick={() => go('home')} aria-label="Home">
-            <img className="brand__logo" src={logo} alt="4U Ayurveda" />
+            <img className="brand__logo" src={logo} alt="Ayurveda" />
             <span><strong>Dr. Thilini</strong><small>Ayurveda Doctor</small></span>
           </button>
 
